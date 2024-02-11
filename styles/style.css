@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "Roboto-Medium", sans-serif;
   font-weight: normal;
   font-style: normal;
   margin: 0;
@@ -237,7 +237,7 @@ input[name="r"] {
 }
 
 .about-section1 h2 {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "Roboto-Medium", sans-serif;
   font-size: clamp(2rem, 1.7183rem + 1.4085vw, 3rem);
 }
 
@@ -253,7 +253,7 @@ input[name="r"] {
 }
 
 .about-section2 h2 {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "Roboto-Medium", sans-serif;
   font-size: clamp(2rem, 1.7183rem + 1.4085vw, 3rem);
 }
 
@@ -402,7 +402,7 @@ input[name="r"] {
 /*описание карточек*/
 
 .card__title {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: "Roboto-Medium", sans-serif;
   font-size: clamp(0.875rem, 0.6574rem + 1.2007vw, 1.75rem);
   text-align: center;
   margin: 75px auto;
@@ -535,7 +535,7 @@ input[name="r"] {
 }
 
 .project_grid-title {
-  font-family: "Roboto-black", sans-serif;
+  font-family: "Roboto-Medium", sans-serif;
   font-size: 28px;
   position: relative;
   padding: 20px;
