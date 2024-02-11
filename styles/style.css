@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto-black", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-weight: normal;
   font-style: normal;
   margin: 0;
@@ -114,7 +114,7 @@ main {
 }
 
 .logo-and-title {
-  font-family: "Roboto-blackitalic", sans-serif;
+  font-family: "Roboto-BlackItalic", sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -133,7 +133,7 @@ main {
 }
 
 .navigation {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-BlackItalic", sans-serif;
   display: flex;
   align-items: center;
   margin-right: 3%;
@@ -237,12 +237,12 @@ input[name="r"] {
 }
 
 .about-section1 h2 {
-  font-family: "Roboto-black", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-size: clamp(2rem, 1.7183rem + 1.4085vw, 3rem);
 }
 
 .about-section1 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans-Light", sans-serif;
   font-size: clamp(1.125rem, 0.9489rem + 0.8803vw, 1.75rem);
 }
 
@@ -253,14 +253,14 @@ input[name="r"] {
 }
 
 .about-section2 h2 {
-  font-family: "Roboto-black", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-size: clamp(2rem, 1.7183rem + 1.4085vw, 3rem);
 }
 
 .about-section2 ul {
   list-style: none;
   text-align: left;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans-Light", sans-serif;
   font-size: clamp(0.875rem, 0.6989rem + 0.8803vw, 1.5rem);
 }
 
@@ -402,19 +402,19 @@ input[name="r"] {
 /*описание карточек*/
 
 .card__title {
-  font-family: "Roboto-black", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-size: clamp(0.875rem, 0.6574rem + 1.2007vw, 1.75rem);
   text-align: center;
   margin: 75px auto;
 }
 
 .description p {
-  font-family: "Open Sans-Light", sans-serif;
+  font-family: "OpenSans-Light", sans-serif;
   font-size: clamp(1rem, 0.9689rem + 0.1715vw, 1.125rem);
 }
 
 .description ul {
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans-LightItalic", sans-serif;
   font-size: clamp(1rem, 0.9689rem + 0.1715vw, 1.125rem);
   list-style-type: none;
   padding-left: 20px;
@@ -579,12 +579,12 @@ input[name="r"] {
 }
 
 figcaption {
-  font-family: "Roboto-italic", sans-serif;
+  font-family: "Roboto-Italic", sans-serif;
   font-size: clamp(0.875rem, 0.8439rem + 0.1715vw, 1rem);
 }
 
 .about-section3 p {
-  font-family: "Open Sans";
+  font-family: "OpenSans-LightItalic";
   font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
 }
 
@@ -594,3 +594,4 @@ figcaption {
   margin: 30px 50px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.121);
 }
+

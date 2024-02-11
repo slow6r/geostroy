@@ -1,19 +1,19 @@
 /*ROBOTO*/
 
 @font-face {
-  font-family: "Roboto-black";
+  font-family: "Roboto-Black";
   src: url(./Roboto/Roboto-Black.woff2) format("woff2");
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-blackitalic";
+  font-family: "Roboto-BlackItalic";
   src: url(./Roboto/Roboto-BlackItalic.woff2) format("woff2");
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto-italic";
+  font-family: "Roboto-Italic";
   src: url(./Roboto/Roboto-Italic.woff2) format("woff2");
   font-style: italic;
 }
@@ -21,19 +21,19 @@
 /*Open Sans*/
 
 @font-face {
-  font-family: "Open Sans-Light";
+  font-family: "OpenSans-Light";
   src: url(./Opensans/OpenSans-Light.woff) format("woff");
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "OpenSans-LightItalic";
   src: url(./Opensans/OpenSans-LightItalic.woff2) format("woff2");
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Open Sans-regular";
+  font-family: "OpenSans-Regular";
   src: url(./Opensans/OpenSans-Regular.woff2) format("woff2");
   font-style: normal;
 }
