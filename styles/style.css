@@ -402,7 +402,7 @@ input[name="r"] {
 /*описание карточек*/
 
 .card__title {
-  font-family: "Roboto-Medium", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-size: clamp(0.875rem, 0.6574rem + 1.2007vw, 1.75rem);
   text-align: center;
   margin: 75px auto;
@@ -410,6 +410,7 @@ input[name="r"] {
 
 .description p {
   font-family: "OpenSans-Light", sans-serif;
+  /*не работает*/
   font-size: clamp(1rem, 0.9689rem + 0.1715vw, 1.125rem);
 }
 
@@ -580,11 +581,13 @@ input[name="r"] {
 
 figcaption {
   font-family: "Roboto-Italic", sans-serif;
+  /*не работает*/
   font-size: clamp(0.875rem, 0.8439rem + 0.1715vw, 1rem);
 }
 
 .about-section3 p {
-  font-family: "OpenSans-LightItalic";
+  font-family: "OpenSans-LightItalic"; 
+  /* не работает */
   font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
 }
 
