@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<title>Горизонтальная Шапка</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo-and-title">
+            <a href="./index.html" class="logo-container">
+                <div class="logo">
+                    <img src="./images/Геострой.png" alt="Логотип">
+                </div>
+                <div class="site-title">
+                    <h1>ГеоСтрой</h1>
+                </div>
+            </a>
+        </div>
+    
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="./project.html">Проекты</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+        
+                <div class="slide s1 active"><img src="./images/1sl.jpg" alt="1 слайд"></div>
+                <div class="slide"><img src="./images/2sl.jpg" alt="2 слайд"></div>
+                <div class="slide"><img src="./images/3sl.jpg" alt="3 слайд"></div>
+                <div class="slide"><img src="./images/4sl.jpg" alt="4 слайд"></div>
+                <div class="slide"><img src="./images/5sl.jpeg" alt="5 ckf"></div>
+            </div>
+            <div class="navig">
+                <label for="r1" class="bar" onclick="changeSlide(0)" onmouseover="handleLabelHover(0)" onmouseout="handleLabelOut(0)"></label>
+                <label for="r2" class="bar" onclick="changeSlide(1)" onmouseover="handleLabelHover(1)" onmouseout="handleLabelOut(1)"></label>
+                <label for="r3" class="bar" onclick="changeSlide(2)" onmouseover="handleLabelHover(2)" onmouseout="handleLabelOut(2)"></label>
+                <label for="r4" class="bar" onclick="changeSlide(3)" onmouseover="handleLabelHover(3)" onmouseout="handleLabelOut(3)"></label>
+                <label for="r5" class="bar" onclick="changeSlide(4)" onmouseover="handleLabelHover(4)" onmouseout="handleLabelOut(4)"></label>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about-section1">
+                <h2>Компания «ГеоСтрой»</h2>
+                <p>Ваш надежный партнер в строительстве домов! Уже более 7 лет мы занимаемся строительством домов под
+                    ключ. За это время мы успешно реализовали множество проектов и приобрели бесценный опыт в данной
+                    сфере.</p>
+            </div>
+            <div class="about-section2">
+                <h2>Наши преимущества:</h2>
+                <ul>
+                    <li>Опыт работы на рынке строительства более 7 лет</li>
+                    <li>Полный комплекс услуг – от проектирования до сдачи объекта</li>
+                    <li>Гарантия качества на все виды работ</li>
+                    <li>Использование только качественных материалов</li>
+                    <li>Современные технологии и оборудование</li>
+                </ul>
+            </div>
+
+            <div class="project_grid-title">
+                <h2>Наши проекты</h2></div>
+
+            <div class="project_grid" animated fadeInUp>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/1/1.jpg" alt="Проект 1">
+                    </a>
+                    <figcaption>Дом ГБ-1, этажей: 2, материал: газобетон, площадь: 137,3 кв.м., базовая стоимость: 7 400 000 руб.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/2/1.jpg" alt="Проект 2">
+                    </a>
+                    <figcaption>Дом ГБ-2, этажей: 2, материал: газобетон, площадь: 123 кв.м., базовая стоимость: 7 400 000.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/3/1.jpg" alt="Проект 3">
+                    </a>    
+                    <figcaption>Дом ОБ-1, этажей: 1, материал: газобетон, площадь 136 кв.м., базовая стоимость: 8 500 000 руб. </figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/4/1.jpg" alt="Проект 4">
+                    </a>
+                    <figcaption>Дом ОБ-2, этажей: 1, материал: газобетон, площадь: 140 кв.м., базовая стоимость: 8 900 000 руб.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/5/1.jpg" alt="Проект 5">
+                    </a>
+                    <figcaption>Дом ДК-1, этажей: 2, материал: дерево, площадь: 114 кв.м., базовая стоимость: 5 800 000 руб.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/6/1.jpg" alt="Проект 6">
+                    </a>
+                    <figcaption>Дом Уют-1, этажей: 1, материал: дерево, площадь: 92 кв.м., базовая стоимость: 4 300 000 руб.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/7/1.jpg" alt="Проект 7">
+                    </a>
+                    <figcaption>Дом Уют-2, этажей: 1, материал: дерево, площадь: 96 кв.м., базовая стоимость: 5 100 000 руб.</figcaption>
+                </figure>
+                <figure>
+                    <a href="/project.html">
+                    <img src="./images/projects/8/1.jpg" alt="Проект 8">
+                    </a>
+                    <figcaption>Дом Уют-3, этажей: 1, материал: дерево, площадь: 92 кв.м., базовая стоимость: 4 700 000 руб.</figcaption>
+                </figure>
+            </div>
+            
+            <div class="about-section3" animated fadeInUp>
+                
+                <p>Обращаясь в компанию “ГеоСтрой”, вы получаете надежного партнера, который поможет вам реализовать вашу мечту о собственном доме. Мы
+                    гарантируем качественное выполнение всех работ и сдачу объекта в срок. Если вы хотите построить или
+                    приобрести дом своей мечты – обращайтесь к нам! Мы поможем вам создать уютное и комфортное жилье,
+                    которое будет радовать вас на протяжении многих лет.</p>
+
+            </div>
+        </div>
+
+</main>
+    <div class="footer" id="contacts">
+        <h2>Контакты</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Телефоны:</strong>
+                <span class="copyable" contenteditable="true" onclick="copyToClipboard('+7(925)000-70-36')">+7(925)000-70-36</span>,
+                <span class="copyable" contenteditable="true" onclick="copyToClipboard('+7(926)000-70-52')">+7(926)000-70-52</span>
+            </div>
+        </div>
+        <div class="address">
+            <p><strong>Адрес:</strong>
+                <span class="copyable" contenteditable="true" onclick="copyToClipboard('Московская область, г. Можайск, ул. Фрунзе, д. 19')">Московская область, г. Можайск, ул. Фрунзе, д. 19</span>
+            </p>
+        </div>
+    </div>
+    <script src="./scrypt.js"></script>
+</body>
+
+</html>
