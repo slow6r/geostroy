@@ -133,7 +133,8 @@ main {
 }
 
 .navigation {
-  font-family: "Roboto-BlackItalic", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
   display: flex;
   align-items: center;
   margin-right: 3%;
