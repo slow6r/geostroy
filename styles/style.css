@@ -585,7 +585,7 @@ figcaption {
 
 .about-section3 p {
   font-family: "Open Sans";
-  font-size: 24px;
+  font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
 }
 
 .about-section3 {
