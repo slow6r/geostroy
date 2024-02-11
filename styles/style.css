@@ -580,13 +580,15 @@ input[name="r"] {
 }
 
 figcaption {
-  font-family: "Roboto-Italic", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
   /*не работает*/
   font-size: clamp(0.875rem, 0.8439rem + 0.1715vw, 1rem);
 }
 
 .about-section3 p {
-  font-family: "OpenSans-LightItalic"; 
+  font-family: "Open Sans", sans-serif; 
+  font-style: italic;
   /* не работает */
   font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
 }
