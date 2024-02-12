@@ -590,6 +590,7 @@ figcaption {
   font-family: "OpenSans-Light", sans-serif; 
   /* не работает */
   font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
+  padding: 15px;
 }
 
 .about-section3 {
