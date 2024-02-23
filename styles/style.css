@@ -322,13 +322,13 @@ input[name="r"] {
   overflow: hidden;
 }
 
-.slider__project .prev{
+.slider__project .prev {
   width: 45px;
   height: 40px;
   right: 30;
 }
 
-.slider__project .next{
+.slider__project .next {
   width: 45px;
   height: 40px;
   right: 10px;
@@ -440,8 +440,6 @@ input[name="r"] {
   /* Компенсация для смещения текста на место черточек */
   margin-right: 15px;
 }
-
-
 
 /*footer*/
 
@@ -575,7 +573,7 @@ figcaption {
 }
 
 .about-section3 p {
-  font-family: "OpenSans-Light", sans-serif; 
+  font-family: "OpenSans-Light", sans-serif;
   /* не работает */
   font-size: clamp(1.25rem, 1.1878rem + 0.3431vw, 1.5rem);
   padding: 15px;
@@ -588,3 +586,86 @@ figcaption {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.121);
 }
 
+.works {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.work-description {
+  font-family: "OpenSans-Light", sans-serif;
+  margin: 5px;
+  font-size: clamp(1rem, 0.9689rem + 0.1715vw, 1.125rem);
+}
+
+.slider-works-container {
+  position: relative;
+  width: 500px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+}
+
+.slider-works {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-works img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  /* Maintain aspect ratio */
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.174);
+  border-radius: 10px;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .slider-works-container {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .slider-works-container {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .slider-works-container {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .slider-works-container {
+    width: 250px;
+    height: 150px;
+  }
+}
