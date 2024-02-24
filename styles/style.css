@@ -665,7 +665,26 @@ figcaption {
 
 @media screen and (max-width: 300px) {
   .slider-works-container {
-    width: 250px;
-    height: 150px;
+    width: 270px;
+    height: 180px;
+  }
+
+  .work-description {
+    font-family: "OpenSans-Light", sans-serif;
+    margin: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .slider-works-container {
+    width: 260px;
+    height: 160px;
+  }
+
+  .work-description {
+    font-family: "OpenSans-Light", sans-serif;
+    margin: 5px;
+    font-size: 14px;
   }
 }
